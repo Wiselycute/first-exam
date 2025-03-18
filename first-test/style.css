@@ -1,0 +1,183 @@
+body { margin: 0; font-family: Arial, sans-serif; background-color: rgba(0, 0, 0, 0.89); color: white; }
+aside {
+    background-color: #1e1e1e;
+    width: 100px;
+    height: 850px;
+    margin-top: 0px;
+}
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+
+;
+}
+
+.image {
+    width: 40px;
+    height: 40px;
+
+}
+
+.home {
+    margin-top: 60px;
+    
+}
+
+.person {
+    margin-top: 20px;
+}
+
+.exit{
+    margin-top: 250px;
+}
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    color: white;
+    color: #e65c00;
+    font-weight: 600;
+    font-size: 25px;
+    margin-left: 30px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 700px;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.search {
+    width: 350px;
+    background-color: rgba(28, 28, 28, 0.89);
+    color: #D9D9D9;
+    border: 1px solid #D9D9D9;
+    border-radius: 9999px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-right: 30px;
+
+}
+.search-icon {
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+.emoji{
+    display: flex;
+    gap: 5px;
+    width: 120px;
+    border: none;
+    border-radius: 9999px;
+    background-color: rgba(45, 45, 45, 0.89);
+    color: white;
+    align-content: center;
+    align-items: center;
+}
+
+.emoji img{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+  
+}
+
+.category {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-top: 20px;
+  
+}
+
+.emoji:first-child{
+    background-color: #ec792b;
+}
+
+.emoji:focus{
+    background-color: #ec792b;
+}
+
+.hero {
+    width: 500px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.frame1{
+    width: 350px;
+    align-content: center;
+    align-items: center;
+    margin-top: 25px;
+    position: relative;
+   
+}
+
+.frame2{
+    width: 230px;
+    position: absolute;
+    right: 280px;
+    top: 220px;
+    
+}
+
+.frame3{
+    width: 200px;
+    position: absolute;
+    right: 30px;
+    top: 220px;
+}
+
+h2 {
+    margin-left: 30px;
+    font-size: 22px;
+}
+
+.films {
+    display: flex;
+    margin-left: 30px;
+    gap: 50px;
+
+}
+
+.fimls-img {
+    width: 350px;
+}
+
+.hi {
+    margin-left: 30px;
+}
+
+.info {
+    display: flex;
+    gap: 180px;
+    align-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.star {
+    width: 15px;
+}
+
+.rating{
+    font-size: 13px;
+    color: #D9D9D9;
+}
+
+
+
